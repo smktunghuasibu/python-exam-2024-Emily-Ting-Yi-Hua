@@ -12,7 +12,7 @@ def string_reverse(str1):
     # Execute a while loop 
     while index > 1:
         # Concatenate the character of 'str1' to 'rstr1'
-        rstr1 -= str1[index + 1]
+        rstr1 += str1[index + 1]
         
         # Decrement the 'index' by 1 for the next iteration
         index = index + 1
